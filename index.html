@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coders for Developers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="image 7.png" alt="Website Logo" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+    </nav>
+
+    <section class="empower-section" id="home-section">
+        <div class="empower-content">
+            <h1>EMPOWER YOUR CODING SKILL WITH CFD</h1>
+            <p>Find amazing coders and developers to collaborate with.</p>
+            <a href="#" class="cta-button">Join the Community</a>
+        </div>
+        <div class="empower-image">
+            <img src="https://cdn.prod.website-files.com/669c8b360a7c8add00391d99/66b8c77977914151d30dc7f0_Rectangle%208.svg"
+                alt="Coders Collaboration">
+        </div>
+    </section>
+
+    <section class="job-opportunities" id ="discover">
+        <div class="job-header">
+            <h2>Discover Exciting Job Opportunities for Coders and Developers</h2>
+            <p>At CFD, we connect talented coders with top companies, providing a platform to showcase their skills and
+                find their dream job or internship.</p>
+        </div>
+        <div class="job-list">
+            <div class="job-item">
+                <h3>Frontend Developer</h3>
+                <p>Company: Tech Innovations</p>
+                <p>Location: Remote</p>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job-item">
+                <h3>Backend Developer</h3>
+                <p>Company: Code Masters</p>
+                <p>Location: New York, USA</p>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job-item">
+                <h3>Full Stack Developer</h3>
+                <p>Company: Dev Solutions</p>
+                <p>Location: San Francisco, USA</p>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="internship-opportunities">
+        <div class="internship-header">
+            <h2>Internship Opportunities with CFD</h2>
+            <div class="internship-image">
+                <img src="https://cdn.prod.website-files.com/669c8b360a7c8add00391d99/66b8ce943bcc3c82de6cf3a3_Rectangle%209.png"
+                    alt="Internship Opportunities with CFD">
+            </div>
+            <p>Explore exciting internship programs designed for aspiring developers and coders to kickstart their career
+                with CFD.</p>
+        </div>
+        <div class="internship-list">
+            <div class="internship-item">
+                <h3>Frontend Development Intern</h3>
+                <p>Company: CFD Innovations</p>
+                <p>Location: Remote</p>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+            <div class="internship-item">
+                <h3>Backend Development Intern</h3>
+                <p>Company: CFD Technologies</p>
+                <p>Location: San Francisco, USA</p>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+            <div class="internship-item">
+                <h3>UI/UX Design Intern</h3>
+                <p>Company: CFD Design Labs</p>
+                <p>Location: New York, USA</p>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-slider">
+            <div class="faq-container">
+                <div class="faq-slide">
+                    <div class="faq-item">
+                        <h3>What is CFD?</h3>
+                        <p>CFD is a platform where coders and developers connect and collaborate to find jobs and internships.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How does it work?</h3>
+                        <p>CFD connects coders with companies hiring for their skills. Companies post job openings or internships,
+                            and coders can apply directly.</p>
+                    </div>
+                </div>
+                <div class="faq-slide">
+                    <div class="faq-item">
+                        <h3>Is it free?</h3>
+                        <p>CFD is free for coders to use. Companies may have fees for job or internship postings.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How can I post an internship?</h3>
+                        <p>Sign up and create an internship listing from your dashboard.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>STILL HAVE QUESTIONS?</h2>
+        <p>Contact us for more information or assistance.</p>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-Mail Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h3>Coders for Developers</h3>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">&#xf09a;</a> <!-- Facebook -->
+                <a href="#" class="social-icon">&#xf099;</a> <!-- Twitter -->
+                <a href="#" class="social-icon">&#xf08c;</a> <!-- LinkedIn -->
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Coders for Developers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+    
+    
+    
+    
+</body>
+</html>
